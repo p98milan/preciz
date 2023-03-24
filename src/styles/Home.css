@@ -1,0 +1,49 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #fff;
+    object-fit: contain;
+}
+
+#video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 2rem;
+}
+
+.home-container h1{
+    margin-bottom: 1.4rem;
+}
+
+.home-container p{
+    margin-bottom: 1.4rem;
+}
+
+.home-container button{
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home-container button:hover{
+    background: #ff5e2d;
+    transition: background 0.2s ease;
+}

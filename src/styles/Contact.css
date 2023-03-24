@@ -1,0 +1,79 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.contact-container form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-container form label{
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.contact-container form input{
+    font-size: 1rem;
+    padding: 0.6rem 0;
+    width: 500px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #efefef;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+}
+
+.contact-container form input::placeholder{
+    color: #efefefc0;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.contact-container form textarea{
+    width: 100%;
+    resize: none;
+    background: none;
+    color: #fff;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 0.8rem;
+    color: #efefef;
+    outline: none;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container form textarea::placeholder{
+    font-family: 'Poppins', Sans-serif;
+    color: #efefefc0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.contact-container button{
+    width: 120px;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
+    border: none;
+    background: #fff;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-family: 'Poppins', Sans-serif;
+    cursor: pointer;
+}
+
+.contact-container button:hover{
+    background: #ff5e2d;
+    transition: background 0.2s ease;
+}
