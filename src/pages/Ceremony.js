@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Ceremony.css';
-import { motion } from 'framer-motion';
 import cake from '../assets/cake.jpg';
 import dance from '../assets/dance.jpg';
 import decoration from '../assets/decoration.jpg';
